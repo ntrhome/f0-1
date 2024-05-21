@@ -1,13 +1,4 @@
-/*
- * main.h
- *
- *  Created on: May 21, 2024
- *      Author: bu
- */
+	#pragma once
 
-#ifndef MAIN_H_
-#define MAIN_H_
-
-
-
-#endif /* MAIN_H_ */
+	#define SS(X) #X
+	#define S(X) SS(X) using:// #define VALUE 9876543210 #pragma message "Message is " S(VALUE)
