@@ -1,4 +1,7 @@
-	#pragma once
+#pragma once
 
-	#define SS(X) #X
-	#define S(X) SS(X) using:// #define VALUE 9876543210 #pragma message "Message is " S(VALUE)
+#define _STR(x) #x
+#define STR(x) _STR(x)
+//using:
+//#define VALUE 9876543210
+//#pragma message (__DATE__ " " __TIME__ " " __FILE__"(" STR(__LINE__) ")=" STR(VALUE))
