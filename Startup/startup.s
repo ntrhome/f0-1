@@ -1,5 +1,5 @@
 /* ******************************************************************************
- * @file      minimize startup_stm32f072rbtx.s
+ * @file      My minimize startup_stm32f072rbtx.s
  * @brief     STM32F072RBTx device vector table for GCC toolchain.
  *            This module performs:
  *                - Set the initial SP
@@ -19,7 +19,9 @@
 /* Defined in linker script: */
 .word _sidata /* start address for the initialization values of the .data section. */
 .word _sdata  /* start address for the .data section. defined in linker script */
-.word _edata  /* end address for the .data section. defined in linker script */
+.word _edata  /* end address foThe gnu Assembler
+(GNU Tools for STM32 12.3.rel1.20240306-1730)
+Version 2.40.0r the .data section. defined in linker script */
 .word _sbss   /* start address for the .bss section. defined in linker script */
 .word _ebss   /* end address for the .bss section. defined in linker script */
 
