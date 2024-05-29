@@ -19,20 +19,10 @@
 /* Defined in linker script: */
 .word _sidata /* start address for the initialization values of the .data section. */
 .word _sdata  /* start address for the .data section. defined in linker script */
-.word _edata  /* end address foThe gnu Assembler
-(GNU Tools for STM32 12.3.rel1.20240306-1730)
-Version 2.40.0r the .data section. defined in linker script */
+.word _edata  /* end address foThe gnu Assembler */
 .word _sbss   /* start address for the .bss section. defined in linker script */
 .word _ebss   /* end address for the .bss section. defined in linker script */
 
-/**
- * @brief  This is the code that gets called when the processor first
- *          starts execution following a reset event. Only the absolutely
- *          necessary set is performed, after which the application
- *          supplied main() routine is called.
- * @param  None
- * @retval : None
-*/
 
   .section .text.Reset_Handler
   .weak Reset_Handler
